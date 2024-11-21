@@ -8,7 +8,7 @@ function getBirthdayMessage() {
     let resultsSeg = regexSeg.exec(url);
 
     if (resultsName == null) {
-        birthdayName = "Nata";
+        birthdayName = "Nandini";
     } else {
         birthdayName = decodeURIComponent(resultsName[2]);
     }
